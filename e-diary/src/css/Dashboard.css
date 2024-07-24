@@ -1,0 +1,280 @@
+.dash-container{
+    height: 100vh;
+    padding-top: 1vh;
+}
+
+.dash {
+    padding-top: 100px;
+    width: 96vw;
+    margin: 0px auto;
+  }
+  
+  .outlet {
+    background-color: rgba(0, 0, 0, 0.275);
+    backdrop-filter: blur(4px);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .maindash{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .addform-container{
+    display: flex;
+    height: 83vh;
+    width: 100%;
+    
+  }
+  .addform{
+    margin: auto;
+
+  }
+
+.check-container  .input-field > label {
+  font-size: 20px;
+  text-align: center;
+  align-content: center;
+  border-radius: 15px;
+  cursor: pointer;
+  min-height: fit-content;
+  margin: 5px;
+  color: white;
+  padding: 0px 10px;
+
+}
+.check-container .input-field > input:checked + label {
+  background-color: red;
+}
+.check-container{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.check-container .input-field{
+  max-width: fit-content;
+}
+.check-container > form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2vh;
+}
+
+.entries{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 2vh;
+}
+
+.assign {
+  min-height: 80vh;
+  width: 40vw;
+  background-color: rgba(0, 0, 0, 0.275);
+  backdrop-filter: blur(4px);
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.assignlinks{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.assignlinks .button{
+  margin: 5px 0px;
+}
+.assigntable {
+  width: 100%;
+  height: 50%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  color: white;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+
+}
+
+th:first-child,
+td:first-child {
+  width: 20%;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+  width: 60%;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+  width: 20%;
+}
+
+.notification{
+  min-height: 42vh;
+  width: 50vw;
+  background-color: rgba(0, 0, 0, 0.275);
+  backdrop-filter: blur(4px);
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.notiftable{
+    width: 65%;
+    height: 46%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    color: white;
+  
+}
+
+.notification > div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.notification th:first-child,
+.notification td:first-child {
+  width: 75%;
+}
+
+.notification th:nth-child(2),
+.notification td:nth-child(2) {
+  width: 25%;
+}
+
+.maindash .title{
+  color: gray;
+  text-shadow: 3px 3px 1px black;
+  font-size: 60px;
+}
+
+.attendance{
+  min-height: 36vh;
+  width: 50vw;
+  background-color: rgba(0, 0, 0, 0.275);
+  backdrop-filter: blur(4px);
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.links1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 30px 0px;
+}
+
+.list-group{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.list-group li{
+  font-size: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.275);
+  backdrop-filter: blur(4px);
+  padding: 5px;
+  margin: 10px;
+  border-radius: 15px;
+  
+}
+.list-group ol{
+  background-color: rgba(0, 0, 0, 0.275);
+  backdrop-filter: blur(4px);
+  padding: 15px 30px;
+  min-width: 90%;
+  margin: 3px;
+  border-radius: 15px;
+  
+}
+.students1{
+  height: 83vh;
+}
+
+
+.notif2{
+  width: 92vw;
+  min-height: 68vh;
+  margin: auto;
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.275);
+  backdrop-filter: blur(4px);
+  padding: 15px 30px;
+  border-radius: 15px;
+  align-items: center;
+}
+
+.notiftable2{
+  width: 100%;
+  color: white;
+}
+.notif2 .title{
+  color: gray;
+  text-shadow: 2px 2px 1px black;
+}
+
+.notif2 th:first-child,
+.notif2 td:first-child {
+  width: 30%;
+}
+
+.notif2 th:nth-child(2),
+.notif2 td:nth-child(2) {
+  width: 45%;
+}
+
+.notif2 th:nth-child(3),
+.notif2 td:nth-child(3) {
+  width: 25%;
+}
+
+.dontshow{
+  display: none;
+}
+
+.hide0{
+  display: none;
+
+}
+
+.studentss1{
+  display: none;
+
+}

@@ -1,0 +1,12 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+
+.app-container {
+    background-image: url("https://img.freepik.com/premium-vector/school-seamless-pattern-blue-vector-doodle-stationery-background-education-supplies-texture-hand-drawn_193606-374.jpg");
+    background-size: auto;
+    position: relative;
+  }
+  
